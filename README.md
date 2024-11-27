@@ -18,7 +18,7 @@ Aceita tokens de autenticação do Nightscout e, até o momento, **foi testado a
 
 ## Instalação
 
-Para utilizar o Glucose Taskbar, é necessário baixar a última versão do programa localizada em Releases e executar o arquivo .exe. Para obter o link direto, [clique aqui](link_para_releases).
+Para utilizar o Glucose Taskbar, é necessário baixar a última versão do programa localizada em Releases e executar o arquivo .exe. Para obter o link direto, [clique aqui](https://github.com/RafaelBomfim128/GlucoseTaskbar/releases).
 
 ## Como usar
 
