@@ -408,7 +408,7 @@ namespace GlucoseTaskbar
 
         private void DocLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string url = "https://github.com/seu-usuario/seu-repositorio/wiki";
+            string url = "https://github.com/RafaelBomfim128/GlucoseTaskbar";
 
             try
             {
