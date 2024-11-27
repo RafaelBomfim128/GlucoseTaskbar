@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SecondsLabel" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="RefreshGlucoseDataGenericError" xml:space="preserve">
+    <value>GlucoseTaskbar: An error occurred while capturing Nightscout values. Please check the defined URL, token (if applicable), your network connection and the status of your Nightscout and try again.</value>
+  </data>
+  <data name="TechnicalSettingsLabel" xml:space="preserve">
+    <value>Technical Settings</value>
+  </data>
+  <data name="DataRefreshLabel" xml:space="preserve">
+    <value>Data refresh interval:</value>
+  </data>
+  <data name="LastUpdateMore1Minute" xml:space="preserve">
+    <value>minutes ago</value>
+  </data>
+  <data name="TokenLabel" xml:space="preserve">
+    <value>Token (if applicable):</value>
+  </data>
+  <data name="MainSettingsLabel" xml:space="preserve">
+    <value>Main Settings</value>
+  </data>
+  <data name="LastUpdateNow" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="SettingsForm" xml:space="preserve">
+    <value>Settings - Glucose Taskbar</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="LastUpdate1Minute" xml:space="preserve">
+    <value>minute ago</value>
+  </data>
+  <data name="MessageBoxTitleError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="NightscoutUrlLabel" xml:space="preserve">
+    <value>Nightscout URL:</value>
+  </data>
+  <data name="MessageBoxDiscardMessage" xml:space="preserve">
+    <value>Do you really want to discard your changes?</value>
+  </data>
+  <data name="TechnicalTabPage" xml:space="preserve">
+    <value>Technical</value>
+  </data>
+  <data name="MainTabPage" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TargetGlucoseLabel" xml:space="preserve">
+    <value>Target Glucose:</value>
+  </data>
+  <data name="BothRadioButton" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="CellPhoneRadioButton" xml:space="preserve">
+    <value>Cell phone</value>
+  </data>
+  <data name="SensorRadioButton" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+  <data name="ShowBatteryLabel" xml:space="preserve">
+    <value>Show battery:</value>
+  </data>
+  <data name="OpacityLabel" xml:space="preserve">
+    <value>Transparency:</value>
+  </data>
+  <data name="ForceAlwaysOnTopCheckBox" xml:space="preserve">
+    <value>Force program always on top and allow entry into the taskbar</value>
+  </data>
+  <data name="MessageBoxForceAlwaysInFrontMessage" xml:space="preserve">
+    <value>Checking this option allows the program to enter the taskbar and makes it always remain at the front, even if you are in a game or even if it is on top of the taskbar. This option is an experimental solution and may consume more hardware resources, do you want to continue?</value>
+  </data>
+  <data name="CellPhoneBatteryPictureBoxTip" xml:space="preserve">
+    <value>Cell phone battery</value>
+  </data>
+  <data name="DeltaLabelTip" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="GlucoseValueLabelTip" xml:space="preserve">
+    <value>Blood glucose value</value>
+  </data>
+  <data name="LastUpdateLabelTip" xml:space="preserve">
+    <value>Last update</value>
+  </data>
+  <data name="SensorBatteryPictureBoxTip" xml:space="preserve">
+    <value>Sensor battery</value>
+  </data>
+  <data name="ProgramSizeLabel" xml:space="preserve">
+    <value>Program size:</value>
+  </data>
+  <data name="LockPositionToolStripMenuItem" xml:space="preserve">
+    <value>Lock position</value>
+  </data>
+  <data name="SettingsToolStripMenuItem" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="BottomLeftCornerToolStripMenuItem" xml:space="preserve">
+    <value>Bottom left corner</value>
+  </data>
+  <data name="BottomRightCornerToolStripMenuItem" xml:space="preserve">
+    <value>Bottom right corner</value>
+  </data>
+  <data name="CenterScreenToolStripMenuItem" xml:space="preserve">
+    <value>Center screen</value>
+  </data>
+  <data name="MessageBoxRestoreCustomPositionErrorMessage" xml:space="preserve">
+    <value>You must first set a custom position in the "Save custom position" button before using this function.</value>
+  </data>
+  <data name="MoveToToolStripMenuItem" xml:space="preserve">
+    <value>Move to</value>
+  </data>
+  <data name="RestoreCustomPositionToolStripMenuItem" xml:space="preserve">
+    <value>Restore custom position</value>
+  </data>
+  <data name="SaveCustomPositionToolStripMenuItem" xml:space="preserve">
+    <value>Save custom position</value>
+  </data>
+  <data name="MessageBoxSaveCustomPositionOverwriteMessage" xml:space="preserve">
+    <value>Do you really want to replace the currently saved custom position with a new position?</value>
+  </data>
+  <data name="RefreshDataToolStripMenuItem" xml:space="preserve">
+    <value>Refresh data</value>
+  </data>
+  <data name="ViewSettingsScreenLabel" xml:space="preserve">
+    <value>To see this screen again, right-click on the program and then on "Settings"</value>
+  </data>
+  <data name="RefreshGlucoseDataHttpRequestException401" xml:space="preserve">
+    <value>GlucoseTaskbar: The server responded with unauthorized status (401), which indicates that the token is missing or incorrect.</value>
+  </data>
+  <data name="ClearLogsButton" xml:space="preserve">
+    <value>Clear logs</value>
+  </data>
+  <data name="AccelerateDataFetchCheckBox" xml:space="preserve">
+    <value>Accelerate data fetch if glucose changes rapidly</value>
+  </data>
+  <data name="NoneRadioButton" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ComingSoonLastReadsLabel" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="ComingSoonNotificationsLabel" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="LatestReadsLabel" xml:space="preserve">
+    <value>Latest Reads</value>
+  </data>
+  <data name="LatestReadsTabPage" xml:space="preserve">
+    <value>Latest Reads</value>
+  </data>
+  <data name="NotificationsLabel" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="NotificationsTabPage" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>Exit (close program)</value>
+  </data>
+  <data name="WindowsStartupCheckBox" xml:space="preserve">
+    <value>Open at Windows startup</value>
+  </data>
+  <data name="MessageBoxSaveSettingsErrorMessage" xml:space="preserve">
+    <value>An error occurred while saving the information</value>
+  </data>
+  <data name="MessageBoxTitleWarning" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="DocLinkLabel" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="DocumentationLabel" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="OpenLinkDocError" xml:space="preserve">
+    <value>Error opening the link</value>
+  </data>
+  <data name="SettingsOpenLabel" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SaveLogsButton" xml:space="preserve">
+    <value>Save logs</value>
+  </data>
+</root>

@@ -1,0 +1,78 @@
+# Build results
+bin
+obj
+out
+installer/Output
+
+# NuGet Packages
+.nupkg
+# Uncomment if you have a packages directory that you want to ignore
+# packages
+# Uncomment if necessary however generally it will be regenerated when needed
+# .snupkg
+.nuspec
+.psmdcp
+
+# Auto-generated files
+.suo
+.user
+.userosscache
+.sln.docstates
+
+# User-specific files
+.rsuser
+.rslog
+.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN
+
+# VS Code directory
+.vscode
+
+# Windows Installer files
+.cab
+.msi
+.msm
+.msp
+
+# Windows shortcuts
+.lnk
+
+# Rider
+.idea
+.sln.iml
+
+# JetBrains Rider and IntelliJ-based IDEs
+.idea
+.sln.iml
+
+# Temporary folders and files
+ipch
+.aps
+.pch
+.vspx
+.generated.
+.vs
+.pdb
+.cache
+.ilk
+.log
+.tlog
+.lastcodeanalysissucceeded
+.project
+.pdb
+
+# Visual Studio profiler
+.vspxproj
+.vspx
