@@ -1,6 +1,6 @@
 # Glucose Taskbar ![Ícone do programa](docs/images/GlucoseTaskbarEmoji.png)
 
-For an English version of this README, click on the following icon: [![it](https://img.shields.io/badge/lang-us-red.svg)](https://your_github_project_url/blob/master/README.us.md)
+For an English version of this README, click on the following icon: [![it](https://img.shields.io/badge/lang-us-red.svg)](https://github.com/RafaelBomfim128/GlucoseTaskbar/blob/main/README.us.md)
 
 ![Captura de tela da Interface Principal](docs/images/interface-principal.png)
 
