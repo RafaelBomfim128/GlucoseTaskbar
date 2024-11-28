@@ -20,6 +20,17 @@ It accepts Nightscout authentication tokens and, so far, **has only been tested 
 
 To use Glucose Taskbar, download the latest version of the program available in Releases and run the .exe file. For a direct link, [click here](https://github.com/RafaelBomfim128/GlucoseTaskbar/releases).
 
+### Windows SmartScreen Warning
+
+Windows may display a warning when running the Glucose Taskbar installer because it is not digitally signed. This occurs due to the high cost of digital certificates, which is not feasible for an open-source project like this.
+
+**If the warning appears**, follow these steps:
+
+1. Click on **"Mais Informações"** in the warning.
+2. Click on **"Executar assim mesmo"**.
+
+We emphasize that the source code is publicly available on GitHub, ensuring complete transparency.
+
 ## How to Use
 
 Using Glucose Taskbar is simple. Just enter your **Nightscout URL**, a **read permission token** (if required, created in the "Admin Tools" section in Nightscout), and save. Optionally, there are extra settings that can be configured, such as Target Glucose, transparency, program size, force entry to taskbar, etc.
