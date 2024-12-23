@@ -54,21 +54,33 @@ namespace GlucoseTaskbar
             resourceManager = new("GlucoseTaskbar.Resources", typeof(Program).Assembly);
             nsData = new NightscoutData();
             settingsForm = new(this, nsData);
-            controlPropertiesManager = new ControlPropertiesManager(this);
             SetOpacity();
             CultureManager.SetCulture();
             AttachMouseDownEventToControls(this);
+            float dpiScale = DeviceDpi / 96f;
             SensorBatteryPictureBox = new PictureBox()
             {
-                Size = new Size(19, 36),
-                Location = new Point(110, 0),
+                Size = new Size(
+                    (int)(19 * dpiScale),
+                    (int)(36 * dpiScale)
+                ),
+                Location = new Point(
+                    (int)(110 * dpiScale),
+                    (int)(0 * dpiScale)
+                ),
                 Image = Properties.Resources.battery_no_signal,
                 SizeMode = PictureBoxSizeMode.Zoom,
             };
             CellPhoneBatteryPictureBox = new PictureBox()
             {
-                Size = new Size(19, 36),
-                Location = new Point(110, 0),
+                Size = new Size(
+                    (int)(19 * dpiScale),
+                    (int)(36* dpiScale)
+                ),
+                Location = new Point(
+                    (int)(110 * dpiScale),
+                    (int)(0 * dpiScale)
+                ),
                 Image = Properties.Resources.battery_no_signal,
                 SizeMode = PictureBoxSizeMode.Zoom,
             };
@@ -88,6 +100,7 @@ namespace GlucoseTaskbar
             AttachMouseDownEventToControls(SettingsOpenLabel);
             SetTooltipsTexts();
             SetContextMenuTexts();
+            controlPropertiesManager = new ControlPropertiesManager(this);
             controlPropertiesManager.StoreOriginalProperties(this);
             controlPropertiesManager.StoreOriginalProperties(SensorBatteryPictureBox);
             controlPropertiesManager.StoreOriginalProperties(CellPhoneBatteryPictureBox);
@@ -197,6 +210,7 @@ namespace GlucoseTaskbar
 
         private void FillBattery()
         {
+            float dpiScale = DeviceDpi / 96f;
             decimal scale = Properties.Settings.Default.ProgramSize;
 
             static void SetBatteryValue(PictureBox pctBattery, int value, bool oldData)
@@ -234,13 +248,17 @@ namespace GlucoseTaskbar
             else if (battery == settingsForm.BothRadioButton.Name)
             {
                 this.Size = new Size(originalFormSize.Width + CellPhoneBatteryPictureBox.Width + (int)(2 * scale), originalFormSize.Height);
-                CellPhoneBatteryPictureBox.Location = new Point((int)(SensorBatteryPictureBox.Location.X + 20 * scale), (int)(SensorBatteryPictureBox.Location.Y * scale));
+                CellPhoneBatteryPictureBox.Location = new Point(
+                    (int)(SensorBatteryPictureBox.Location.X + (20 * dpiScale * (float)scale)),
+                    (int)(SensorBatteryPictureBox.Location.Y * scale)
+                );
                 this.Controls.Add(SensorBatteryPictureBox);
                 this.Controls.Add(CellPhoneBatteryPictureBox);
             }
             else if (battery == settingsForm.NoneRadioButton.Name)
             {
                 this.Controls.Remove(SensorBatteryPictureBox);
+                this.Controls.Remove(CellPhoneBatteryPictureBox);
                 this.Size = new Size(originalFormSize.Width - SensorBatteryPictureBox.Width, originalFormSize.Height);
             }
 

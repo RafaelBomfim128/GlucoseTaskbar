@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Glucose Taskbar"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "GlucoseTaskbar"
 #define MyAppExeName "GlucoseTaskbar.exe"
 #define SourceDir "..\..\GlucoseTaskbar\bin\Release\net8.0-windows7.0"

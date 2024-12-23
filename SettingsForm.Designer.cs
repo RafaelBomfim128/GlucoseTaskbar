@@ -77,6 +77,7 @@
             label3 = new Label();
             DocumentationLabel = new Label();
             DocLinkLabel = new LinkLabel();
+            label4 = new Label();
             LogsTabPage.SuspendLayout();
             NotificationsTabPage.SuspendLayout();
             LatestReadsTabPage.SuspendLayout();
@@ -220,10 +221,10 @@
             LatestReadsTabPage.Controls.Add(ComingSoonLastReadsLabel);
             LatestReadsTabPage.Controls.Add(LastReadsFormsPlot);
             LatestReadsTabPage.Controls.Add(LatestReadsLabel);
-            LatestReadsTabPage.Location = new Point(4, 29);
+            LatestReadsTabPage.Location = new Point(4, 24);
             LatestReadsTabPage.Name = "LatestReadsTabPage";
             LatestReadsTabPage.Padding = new Padding(3);
-            LatestReadsTabPage.Size = new Size(803, 404);
+            LatestReadsTabPage.Size = new Size(803, 409);
             LatestReadsTabPage.TabIndex = 4;
             LatestReadsTabPage.Text = "Latest Reads";
             // 
@@ -596,7 +597,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 10F);
             label3.ForeColor = Color.Gray;
-            label3.Location = new Point(610, 531);
+            label3.Location = new Point(549, 531);
             label3.Name = "label3";
             label3.Size = new Size(209, 17);
             label3.TabIndex = 20;
@@ -622,10 +623,23 @@
             DocLinkLabel.Text = "here";
             DocLinkLabel.LinkClicked += DocLinkLabel_LinkClicked;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 10F);
+            label4.ForeColor = Color.Gray;
+            label4.Location = new Point(764, 531);
+            label4.Name = "label4";
+            label4.Size = new Size(55, 17);
+            label4.TabIndex = 23;
+            label4.Text = "v. 1.0.1";
+            // 
             // SettingsForm
             // 
-            AutoScaleMode = AutoScaleMode.None;
+            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(831, 557);
+            Controls.Add(label4);
             Controls.Add(SaveButton);
             Controls.Add(DocLinkLabel);
             Controls.Add(DocumentationLabel);
@@ -714,5 +728,6 @@
         private Label DocumentationLabel;
         private LinkLabel DocLinkLabel;
         private Label LatestReadsLabel;
+        private Label label4;
     }
 }
