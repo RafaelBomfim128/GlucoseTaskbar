@@ -218,9 +218,11 @@ namespace GlucoseTaskbar
             if (token.Trim() != String.Empty)
             {
                 token = token.Trim();
-                urlEntries += $"&token={token}";
-                urlProperties += $"?&token={token}";
+                token = GetHashSha1(token);
+                urlEntries += $"&secret={token}";
+                urlProperties += $"?&secret={token}";
             }
+
             string responseEntries, responseProperties;
             bool requestSuccess = false;
 
@@ -424,6 +426,15 @@ namespace GlucoseTaskbar
                     SetTimeDiffLastUpdate(i);
                 }
             }
+        }
+
+        public static String GetHashSha1(string input)
+        {
+            string hash = string.Concat(
+                System.Security.Cryptography.SHA1.HashData(Encoding.UTF8.GetBytes(input))
+                    .Select(b => b.ToString("x2"))
+            );
+            return hash;
         }
     }
 }
