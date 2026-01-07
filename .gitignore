@@ -21,6 +21,7 @@ installer/Output
 .suo
 .user
 .userosscache
+*.pubxml.user
 
 # Mono Auto Generated Files
 mono_crash.

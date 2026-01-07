@@ -1,5 +1,5 @@
 ﻿// Glucose Taskbar - Program for glucose monitoring
-// Copyright (C) 2024 Rafael Assis
+// Copyright (C) 2026 Rafael Assis
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -322,11 +322,7 @@ namespace GlucoseTaskbar
         {
             if (isFormLoaded && ForceAlwaysOnTopCheckBox.Checked)
             {
-                DialogResult result = MessageBox.Show(resourceManager.GetString("MessageBoxForceAlwaysInFrontMessage"), resourceManager.GetString("MessageBoxTitleWarning"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (result == DialogResult.No)
-                {
-                    ForceAlwaysOnTopCheckBox.Checked = false;
-                }
+                MessageBox.Show(resourceManager.GetString("MessageBoxForceAlwaysInFrontMessage"), resourceManager.GetString("MessageBoxTitleInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

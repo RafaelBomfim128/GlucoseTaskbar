@@ -47,5 +47,8 @@
     <Setting Name="Language" Type="System.String" Scope="User">
       <Value Profile="(Default)">Português (Brasil)</Value>
     </Setting>
+    <Setting Name="IsUpgradeRequired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

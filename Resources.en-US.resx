@@ -178,7 +178,7 @@
     <value>Cell phone</value>
   </data>
   <data name="SensorRadioButton" xml:space="preserve">
-    <value>Sensor</value>
+    <value>Transmitter</value>
   </data>
   <data name="ShowBatteryLabel" xml:space="preserve">
     <value>Show battery:</value>
@@ -190,7 +190,7 @@
     <value>Force program always on top and allow entry into the taskbar</value>
   </data>
   <data name="MessageBoxForceAlwaysInFrontMessage" xml:space="preserve">
-    <value>Checking this option allows the program to enter the taskbar and makes it always remain at the front, even if you are in a game or even if it is on top of the taskbar. This option is an experimental solution and may consume more hardware resources, do you want to continue?</value>
+    <value>Checking this option allows the program to freely enter the taskbar and keeps it always in front, even if you are in a game or even if it is on top of the taskbar.</value>
   </data>
   <data name="CellPhoneBatteryPictureBoxTip" xml:space="preserve">
     <value>Cell phone battery</value>
@@ -205,7 +205,7 @@
     <value>Last update</value>
   </data>
   <data name="SensorBatteryPictureBoxTip" xml:space="preserve">
-    <value>Sensor battery</value>
+    <value>Transmitter battery</value>
   </data>
   <data name="ProgramSizeLabel" xml:space="preserve">
     <value>Program size:</value>
@@ -302,5 +302,8 @@
   </data>
   <data name="SaveLogsButton" xml:space="preserve">
     <value>Save logs</value>
+  </data>
+  <data name="MessageBoxTitleInformation" xml:space="preserve">
+    <value>Information</value>
   </data>
 </root>

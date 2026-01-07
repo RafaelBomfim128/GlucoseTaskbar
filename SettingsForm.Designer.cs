@@ -601,7 +601,7 @@
             label3.Name = "label3";
             label3.Size = new Size(209, 17);
             label3.TabIndex = 20;
-            label3.Text = "Copyright (C) 2024 Rafael Assis";
+            label3.Text = "Copyright (C) 2026 Rafael Assis";
             // 
             // DocumentationLabel
             // 
@@ -632,7 +632,7 @@
             label4.Name = "label4";
             label4.Size = new Size(55, 17);
             label4.TabIndex = 23;
-            label4.Text = "v. 1.0.1";
+            label4.Text = "v. 1.1.0";
             // 
             // SettingsForm
             // 

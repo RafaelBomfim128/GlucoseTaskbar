@@ -1,5 +1,5 @@
 // Glucose Taskbar - Program for glucose monitoring
-// Copyright (C) 2024 Rafael Assis
+// Copyright (C) 2026 Rafael Assis
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -50,6 +50,13 @@ namespace GlucoseTaskbar
 
         public GlucoseTaskbar()
         {
+            if (Properties.Settings.Default.IsUpgradeRequired)
+            {
+                Properties.Settings.Default.Upgrade();
+                Properties.Settings.Default.IsUpgradeRequired = false;
+                Properties.Settings.Default.Save();
+            }
+
             InitializeComponent();
             resourceManager = new("GlucoseTaskbar.Resources", typeof(Program).Assembly);
             nsData = new NightscoutData();

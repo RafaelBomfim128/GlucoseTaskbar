@@ -117,8 +117,104 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="SecondsLabel" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="RefreshGlucoseDataGenericError" xml:space="preserve">
+    <value>GlucoseTaskbar: Ocorreu um erro durante a captura dos valores do Nightscout. Verifique a URL definida, o token (se aplicável), sua conexão de rede e o status do seu Nightscout e tente novamente.</value>
+  </data>
+  <data name="TechnicalSettingsLabel" xml:space="preserve">
+    <value>Configurações Técnicas</value>
+  </data>
+  <data name="DataRefreshLabel" xml:space="preserve">
+    <value>Intervalo de atualização:</value>
+  </data>
+  <data name="LastUpdateMore1Minute" xml:space="preserve">
+    <value>minutos atrás</value>
+  </data>
+  <data name="TokenLabel" xml:space="preserve">
+    <value>Token (se aplicável):</value>
+  </data>
+  <data name="MainSettingsLabel" xml:space="preserve">
+    <value>Configurações Principais</value>
+  </data>
+  <data name="LastUpdateNow" xml:space="preserve">
+    <value>Agora</value>
+  </data>
+  <data name="SettingsForm" xml:space="preserve">
+    <value>Configurações - Glucose Taskbar</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Idioma:</value>
+  </data>
+  <data name="LastUpdate1Minute" xml:space="preserve">
+    <value>minuto atrás</value>
+  </data>
+  <data name="MessageBoxTitleError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="NightscoutUrlLabel" xml:space="preserve">
+    <value>URL do Nightscout:</value>
+  </data>
+  <data name="MessageBoxDiscardMessage" xml:space="preserve">
+    <value>Deseja realmente descartar as alterações realizadas?</value>
+  </data>
+  <data name="TechnicalTabPage" xml:space="preserve">
+    <value>Técnico</value>
+  </data>
+  <data name="MainTabPage" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="TargetGlucoseLabel" xml:space="preserve">
+    <value>Glicemia Alvo:</value>
+  </data>
   <data name="BothRadioButton" xml:space="preserve">
     <value>Ambos</value>
+  </data>
+  <data name="CellPhoneRadioButton" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="SensorRadioButton" xml:space="preserve">
+    <value>Transmissor</value>
+  </data>
+  <data name="ShowBatteryLabel" xml:space="preserve">
+    <value>Mostrar bateria:</value>
+  </data>
+  <data name="OpacityLabel" xml:space="preserve">
+    <value>Transparência:</value>
+  </data>
+  <data name="ForceAlwaysOnTopCheckBox" xml:space="preserve">
+    <value>Forçar programa sempre na frente e permitir a entrada na barra de tarefas</value>
+  </data>
+  <data name="MessageBoxForceAlwaysInFrontMessage" xml:space="preserve">
+    <value>Marcar esta opção permite que o programa entre na barra de tarefas livremente e faz com que ele permaneça sempre na frente, mesmo que você esteja em um jogo ou mesmo que ele esteja em cima da barra de tarefas.</value>
+  </data>
+  <data name="CellPhoneBatteryPictureBoxTip" xml:space="preserve">
+    <value>Bateria do celular</value>
+  </data>
+  <data name="DeltaLabelTip" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="GlucoseValueLabelTip" xml:space="preserve">
+    <value>Valor da glicemia</value>
+  </data>
+  <data name="LastUpdateLabelTip" xml:space="preserve">
+    <value>Última atualização</value>
+  </data>
+  <data name="SensorBatteryPictureBoxTip" xml:space="preserve">
+    <value>Bateria do Transmissor</value>
+  </data>
+  <data name="ProgramSizeLabel" xml:space="preserve">
+    <value>Tamanho do programa:</value>
+  </data>
+  <data name="LockPositionToolStripMenuItem" xml:space="preserve">
+    <value>Bloquear posição</value>
+  </data>
+  <data name="SettingsToolStripMenuItem" xml:space="preserve">
+    <value>Configurações</value>
   </data>
   <data name="BottomLeftCornerToolStripMenuItem" xml:space="preserve">
     <value>Canto inferior esquerdo</value>
@@ -126,17 +222,41 @@
   <data name="BottomRightCornerToolStripMenuItem" xml:space="preserve">
     <value>Canto inferior direito</value>
   </data>
-  <data name="CellPhoneBatteryPictureBoxTip" xml:space="preserve">
-    <value>Bateria do celular</value>
-  </data>
-  <data name="CellPhoneRadioButton" xml:space="preserve">
-    <value>Celular</value>
-  </data>
   <data name="CenterScreenToolStripMenuItem" xml:space="preserve">
     <value>Centro da tela</value>
   </data>
+  <data name="MessageBoxRestoreCustomPositionErrorMessage" xml:space="preserve">
+    <value>É necessário primeiro definir uma posição personalizada no botão "Salvar posição personalizada" antes de usar esta função.</value>
+  </data>
+  <data name="MoveToToolStripMenuItem" xml:space="preserve">
+    <value>Mover para</value>
+  </data>
+  <data name="RestoreCustomPositionToolStripMenuItem" xml:space="preserve">
+    <value>Restaurar posição personalizada</value>
+  </data>
+  <data name="SaveCustomPositionToolStripMenuItem" xml:space="preserve">
+    <value>Salvar posição personalizada</value>
+  </data>
+  <data name="MessageBoxSaveCustomPositionOverwriteMessage" xml:space="preserve">
+    <value>Deseja realmente substituir a posição personalizada salva atualmente por uma nova posição?</value>
+  </data>
+  <data name="RefreshDataToolStripMenuItem" xml:space="preserve">
+    <value>Atualizar dados</value>
+  </data>
+  <data name="ViewSettingsScreenLabel" xml:space="preserve">
+    <value>Para ver esta tela novamente, clique com o botão direito em cima do programa e depois em "Configurações"</value>
+  </data>
+  <data name="RefreshGlucoseDataHttpRequestException401" xml:space="preserve">
+    <value>GlucoseTaskbar: O servidor respondeu com status não autorizado (401), o que indica que o token está ausente ou incorreto.</value>
+  </data>
   <data name="ClearLogsButton" xml:space="preserve">
     <value>Limpar logs</value>
+  </data>
+  <data name="AccelerateDataFetchCheckBox" xml:space="preserve">
+    <value>Acelerar a busca de dados se a glicemia mudar rapidamente</value>
+  </data>
+  <data name="NoneRadioButton" xml:space="preserve">
+    <value>Nenhum</value>
   </data>
   <data name="ComingSoonLastReadsLabel" xml:space="preserve">
     <value>Em breve</value>
@@ -144,86 +264,11 @@
   <data name="ComingSoonNotificationsLabel" xml:space="preserve">
     <value>Em breve</value>
   </data>
-  <data name="DataRefreshLabel" xml:space="preserve">
-    <value>Intervalo de atualização:</value>
-  </data>
-  <data name="DeltaLabelTip" xml:space="preserve">
-    <value>Delta</value>
-  </data>
-  <data name="DocLinkLabel" xml:space="preserve">
-    <value>aqui</value>
-  </data>
-  <data name="DocumentationLabel" xml:space="preserve">
-    <value>Documentação</value>
-  </data>
-  <data name="ExitToolStripMenuItem" xml:space="preserve">
-    <value>Sair (fechar o programa)</value>
-  </data>
-  <data name="ForceAlwaysOnTopCheckBox" xml:space="preserve">
-    <value>Forçar programa sempre na frente e permitir a entrada na barra de tarefas</value>
-  </data>
-  <data name="GlucoseValueLabelTip" xml:space="preserve">
-    <value>Valor da glicemia</value>
-  </data>
-  <data name="LanguageLabel" xml:space="preserve">
-    <value>Idioma:</value>
-  </data>
   <data name="LatestReadsLabel" xml:space="preserve">
     <value>Últimas Leituras</value>
   </data>
   <data name="LatestReadsTabPage" xml:space="preserve">
     <value>Últimas Leituras</value>
-  </data>
-  <data name="LastUpdate1Minute" xml:space="preserve">
-    <value>minuto atrás</value>
-  </data>
-  <data name="LastUpdateLabelTip" xml:space="preserve">
-    <value>Última atualização</value>
-  </data>
-  <data name="LastUpdateMore1Minute" xml:space="preserve">
-    <value>minutos atrás</value>
-  </data>
-  <data name="LastUpdateNow" xml:space="preserve">
-    <value>Agora</value>
-  </data>
-  <data name="LockPositionToolStripMenuItem" xml:space="preserve">
-    <value>Bloquear posição</value>
-  </data>
-  <data name="MainSettingsLabel" xml:space="preserve">
-    <value>Configurações Principais</value>
-  </data>
-  <data name="MainTabPage" xml:space="preserve">
-    <value>Principal</value>
-  </data>
-  <data name="MessageBoxDiscardMessage" xml:space="preserve">
-    <value>Deseja realmente descartar as alterações realizadas?</value>
-  </data>
-  <data name="MessageBoxForceAlwaysInFrontMessage" xml:space="preserve">
-    <value>Marcar esta opção permite que o programa entre na barra de tarefas e faz com que ele permaneça sempre na frente, mesmo que você esteja em um jogo ou mesmo que ele esteja em cima da barra de tarefas. Essa opção é uma solução experimental e pode consumir mais recursos de hardware, deseja continuar?</value>
-  </data>
-  <data name="MessageBoxRestoreCustomPositionErrorMessage" xml:space="preserve">
-    <value>É necessário primeiro definir uma posição personalizada no botão "Salvar posição personalizada" antes de usar esta função.</value>
-  </data>
-  <data name="MessageBoxSaveCustomPositionOverwriteMessage" xml:space="preserve">
-    <value>Deseja realmente substituir a posição personalizada salva atualmente por uma nova posição?</value>
-  </data>
-  <data name="MessageBoxSaveSettingsErrorMessage" xml:space="preserve">
-    <value>Ocorreu um erro ao salvar as informações</value>
-  </data>
-  <data name="MessageBoxTitleError" xml:space="preserve">
-    <value>Erro</value>
-  </data>
-  <data name="MessageBoxTitleWarning" xml:space="preserve">
-    <value>Atenção!</value>
-  </data>
-  <data name="MoveToToolStripMenuItem" xml:space="preserve">
-    <value>Mover para</value>
-  </data>
-  <data name="NightscoutUrlLabel" xml:space="preserve">
-    <value>URL do Nightscout:</value>
-  </data>
-  <data name="NoneRadioButton" xml:space="preserve">
-    <value>Nenhum</value>
   </data>
   <data name="NotificationsLabel" xml:space="preserve">
     <value>Notificações</value>
@@ -231,76 +276,34 @@
   <data name="NotificationsTabPage" xml:space="preserve">
     <value>Notificações</value>
   </data>
-  <data name="OpacityLabel" xml:space="preserve">
-    <value>Transparência:</value>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>Sair (fechar o programa)</value>
+  </data>
+  <data name="WindowsStartupCheckBox" xml:space="preserve">
+    <value>Abrir na inicialização do Windows</value>
+  </data>
+  <data name="MessageBoxSaveSettingsErrorMessage" xml:space="preserve">
+    <value>Ocorreu um erro ao salvar as informações</value>
+  </data>
+  <data name="MessageBoxTitleWarning" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="DocLinkLabel" xml:space="preserve">
+    <value>aqui</value>
+  </data>
+  <data name="DocumentationLabel" xml:space="preserve">
+    <value>Documentação</value>
   </data>
   <data name="OpenLinkDocError" xml:space="preserve">
     <value>Erro ao abrir o link</value>
   </data>
-  <data name="RefreshDataToolStripMenuItem" xml:space="preserve">
-    <value>Atualizar dados</value>
-  </data>
-  <data name="RefreshGlucoseDataGenericError" xml:space="preserve">
-    <value>GlucoseTaskbar: Ocorreu um erro durante a captura dos valores do Nightscout. Verifique a URL definida, o token (se aplicável), sua conexão de rede e o status do seu Nightscout e tente novamente.</value>
-  </data>
-  <data name="RefreshGlucoseDataHttpRequestException401" xml:space="preserve">
-    <value>GlucoseTaskbar: O servidor respondeu com status não autorizado (401), o que indica que o token está ausente ou incorreto.</value>
-  </data>
-  <data name="RestoreCustomPositionToolStripMenuItem" xml:space="preserve">
-    <value>Restaurar posição personalizada</value>
-  </data>
-  <data name="SaveButton" xml:space="preserve">
-    <value>Salvar</value>
-  </data>
-  <data name="SaveCustomPositionToolStripMenuItem" xml:space="preserve">
-    <value>Salvar posição personalizada</value>
+  <data name="SettingsOpenLabel" xml:space="preserve">
+    <value>Config</value>
   </data>
   <data name="SaveLogsButton" xml:space="preserve">
     <value>Salvar logs</value>
   </data>
-  <data name="SecondsLabel" xml:space="preserve">
-    <value>segundos</value>
-  </data>
-  <data name="SensorBatteryPictureBoxTip" xml:space="preserve">
-    <value>Bateria do sensor</value>
-  </data>
-  <data name="SensorRadioButton" xml:space="preserve">
-    <value>Sensor</value>
-  </data>
-  <data name="SettingsForm" xml:space="preserve">
-    <value>Configurações - Glucose Taskbar</value>
-  </data>
-  <data name="SettingsOpenLabel" xml:space="preserve">
-    <value>Config</value>
-  </data>
-  <data name="SettingsToolStripMenuItem" xml:space="preserve">
-    <value>Configurações</value>
-  </data>
-  <data name="ShowBatteryLabel" xml:space="preserve">
-    <value>Mostrar bateria:</value>
-  </data>
-  <data name="ProgramSizeLabel" xml:space="preserve">
-    <value>Tamanho do programa:</value>
-  </data>
-  <data name="AccelerateDataFetchCheckBox" xml:space="preserve">
-    <value>Acelerar a busca de dados se a glicemia mudar rapidamente</value>
-  </data>
-  <data name="TargetGlucoseLabel" xml:space="preserve">
-    <value>Glicemia Alvo:</value>
-  </data>
-  <data name="TechnicalSettingsLabel" xml:space="preserve">
-    <value>Configurações Técnicas</value>
-  </data>
-  <data name="TechnicalTabPage" xml:space="preserve">
-    <value>Técnico</value>
-  </data>
-  <data name="TokenLabel" xml:space="preserve">
-    <value>Token (se aplicável):</value>
-  </data>
-  <data name="ViewSettingsScreenLabel" xml:space="preserve">
-    <value>Para ver esta tela novamente, clique com o botão direito em cima do programa e depois em "Configurações"</value>
-  </data>
-  <data name="WindowsStartupCheckBox" xml:space="preserve">
-    <value>Abrir na inicialização do Windows</value>
+  <data name="MessageBoxTitleInformation" xml:space="preserve">
+    <value>Informação</value>
   </data>
 </root>
